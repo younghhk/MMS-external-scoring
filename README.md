@@ -86,9 +86,12 @@ For a given MMS:
    * Both cases and controls are standardized using these control-based parameters
 
 3. **Score calculation**
-   [
-   `MMS_i = \sum_j \beta_j \times Z_{ij}`
-   where `Z_{ij}` is the standardized metabolite value
+   
+MMS is computed as a weighted sum of standardized metabolites:
+
+`MMS_i = sum_j ( beta_j * Z_ij )`
+
+where `Z_ij` is the standardized value of metabolite `j` for participant `i`.
 
 4. **Missing data**
 
