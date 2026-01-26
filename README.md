@@ -87,9 +87,8 @@ For a given MMS:
 
 3. **Score calculation**
    [
-   \text{MMS}*i = \sum_j \beta_j \times Z*{ij}
-   ]
-   where (Z_{ij}) is the standardized metabolite value
+   `MMS_i = \sum_j \beta_j \times Z_{ij}`
+   where `Z_{ij}` is the standardized metabolite value
 
 4. **Missing data**
 
