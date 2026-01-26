@@ -11,8 +11,8 @@ In external datasets, MMS are computed using the subset of IDATA-selected metabo
 
 ```
 ├── compute_MMS_external.R
-├── MMS_sodium_serum.xlsx
-├── MMS_sodium_urine.xlsx
+├── MMS_sodium_serum_stomachcancer.xlsx
+├── MMS_sodium_urine_stomachcancer.xlsx
 ├── MMS_...
 └── README.md
 ```
