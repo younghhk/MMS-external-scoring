@@ -134,7 +134,7 @@ library(readxl)
 # ext_df <- read.csv("external_metabolites.csv")
 
 # Load MMS coefficients from IDATA
-IDATA_df <- read_excel("MMS_sodium_serum_stomachcancer.xlsx")
+IDATA_df <- read_excel("MMS_sodium_serum.xlsx")
 
 # Compute MMS
 res <- compute_MMS_external(
