@@ -208,6 +208,9 @@ clogit(
 
 ## Contact
 
-For questions or clarifications, please contact the study team.
+For questions or clarifications, please contact the study team at erikka.loftfield@nih.gov
+, kaelyn.burns@nih.gov
+, or grace.hong@nih.gov
+.
 
 
