@@ -72,7 +72,7 @@ The function attempts to match metabolites using the following priority:
 
 1. **COMP ID** (`COMP_ID_IDATA`)
 2. **CHEM ID** (`CHEM_ID_IDATA`)
-3. **term** (fallback only)
+
 
 Only metabolites that can be successfully matched are used in the MMS. Unmatched metabolites are dropped automatically and reported in the output.
 
@@ -86,7 +86,7 @@ External datasets should provide metabolite columns named by **COMP ID** (prefer
 The external dataset (`ext_df`) must:
 
 * Have **one row per participant**
-* Contain metabolite columns named using **COMP ID**, **CHEM ID**, or (less ideally) `term`
+* Contain metabolite columns named using **COMP ID** and **CHEM ID**
 
 A **case/control indicator is optional** and is only required if control-based standardization is desired.
 
