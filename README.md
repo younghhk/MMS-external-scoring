@@ -46,11 +46,13 @@ One coefficient file is provided per MMS (e.g., sodium–serum, sodium–urine).
 
 Each file must include the following columns:
 
-| Column name     | Description                                                  |
-| --------------- | ------------------------------------------------------------ |
-| `beta`          | Regression coefficient from the IDATA MMS model              |
-| `COMP_ID_IDATA` | Metabolon Compound ID (recommended for cross-study matching) |
-| `CHEM_ID_IDATA` | Metabolon Chemical ID (alternative identifier)               |
+| Column name     | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| `term`          | Metabolite name or internal identifier used in the IDATA analysis (for reference only) |
+| `beta`          | Regression coefficient from the IDATA MMS model                             |
+| `COMP_ID_IDATA` | Metabolon Compound ID (recommended for cross-study matching)                |
+| `CHEM_ID_IDATA` | Metabolon Chemical ID (alternative identifier)                              |
+
 
 Additional metadata columns (e.g., biochemical name, pathway) may be present and are ignored by the code.
 
