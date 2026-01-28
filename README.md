@@ -48,7 +48,6 @@ Each file must include the following columns:
 
 | Column name     | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
-| `term`          | Metabolite name used internally in IDATA                     |
 | `beta`          | Regression coefficient from the IDATA MMS model              |
 | `COMP_ID_IDATA` | Metabolon Compound ID (recommended for cross-study matching) |
 | `CHEM_ID_IDATA` | Metabolon Chemical ID (alternative identifier)               |
