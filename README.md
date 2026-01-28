@@ -62,7 +62,6 @@ Additional metadata columns (e.g., biochemical name, pathway) may be present and
 
 Metabolon assigns multiple identifiers to metabolites. In IDATA, metabolites are stored with:
 
-* a study-specific name (`term`)
 * Metabolon identifiers (`COMP_ID_IDATA`, `CHEM_ID_IDATA`)
 
 External datasets typically use **COMP ID** or **CHEM ID** as column names.
