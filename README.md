@@ -10,10 +10,10 @@ In external datasets, MMS are computed using the subset of IDATA metabolites tha
 
 ```
 ├── compute_MMS_external.R
-├── MMS_sodium_serum.xlsx
-├── MMS_sodium_urine.xlsx
-├── MMS_sodium_FMV.xlsx
-├── MMS_...
+├── IDATA_MMS_sodium_serum.xlsx
+├── IDATA_MMS_sodium_urine.xlsx
+├── IDATA_MMS_sodium_FMV.xlsx
+├── IDATA_MMS_...
 └── README.md
 ```
 
@@ -26,7 +26,7 @@ In external datasets, MMS are computed using the subset of IDATA metabolites tha
 Contains a single reusable function:
 
 ```r
-compute_MMS_external(ext_df, IDATA_df, case_col = "case")
+compute_MMS_external(ext_df, IDATA_df)
 ```
 
 This function:
