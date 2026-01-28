@@ -196,15 +196,7 @@ clogit(
 
 ---
 
-## Notes and Assumptions
 
-* MMS are computed using **IDATA-derived coefficients** and the subset of metabolites available in the external dataset
-* Metabolite matching is performed programmatically using Metabolon identifiers
-* MMS values are **study-specific** and should not be interpreted as numerically equivalent across cohorts
-* MMS are intended to be used as **relative exposure variables** in within-study analyses
-* Intercepts from IDATA models are intentionally excluded
-
----
 
 ## Contact
 
