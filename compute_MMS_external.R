@@ -16,7 +16,7 @@ compute_MMS_external <- function(
   stopifnot(all(c("term", "beta") %in% names(IDATA_df)))
 
   # -------------------------------------------------
-  # Remove intercept row (term used ONLY for this)
+  # Remove intercept row 
   # -------------------------------------------------
   IDATA_df <- IDATA_df[IDATA_df$term != "(Intercept)", , drop = FALSE]
 
@@ -35,7 +35,7 @@ compute_MMS_external <- function(
   }
 
   # -------------------------------------------------
-  # Matching metabolites (NO term matching)
+  # Matching metabolites 
   # -------------------------------------------------
   ext_colnames <- as.character(names(ext_df))
 
