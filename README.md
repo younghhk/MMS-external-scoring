@@ -14,7 +14,7 @@ In external datasets, MMS are computed using the subset of IDATA metabolites tha
 ```
 ├── compute_MMS_external.R
 ├── IDATA_MMS_sodium_serum.xlsx
-├── IDATA_MMS_sodium_urine.xlsx
+├── IDATA_MMS_sodium_24hrurine.xlsx
 ├── IDATA_MMS_sodium_FMV.xlsx
 ├── IDATA_MMS_... 
 └── README.md
