@@ -79,6 +79,10 @@ Only metabolites that can be successfully matched are used in the MMS. Unmatched
 **Recommendation:**
 External datasets should provide metabolite columns named by **COMP ID** (preferred) or **CHEM ID**.
 
+**Note:**
+In some cases, the COMP ID or CHEM ID of a metabolite may have been updated in the Metabolon database over time. 
+If you find that a metabolite in the MMS does not have a match in your dataset based on COMP ID, it is recommended to conduct a manual check of the CHEM IDs to ensure all possible matches are made.
+
 ---
 
 ## Requirements for the External Dataset
@@ -89,6 +93,9 @@ The external dataset (`ext_df`) must:
 * Contain metabolite columns named using **COMP ID** and **CHEM ID**
 
 A **case/control indicator is optional** and is only required if control-based standardization is desired.
+
+**Note:**
+The serum metabolites that were used in the MMS development were the natural log of the Batch-norm-Imputed data from Metabolon. The urine metabolites that were used in the MMS development were the natural log of the Batch-norm-Imputed and osmolality normalized data from Metabolon.
 
 ---
 
