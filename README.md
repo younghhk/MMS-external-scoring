@@ -2,6 +2,7 @@
 # Computing MMS in External Datasets
 
 This repository provides a standardized approach for computing **Metabolite-based Scores (MMS)** for recovery biomarkers of **sodium**, **potassium**, and the **ratio of sodium-to-potassium** in external datasets using coefficients derived from the **IDATA** study.
+
 MMS are available for **serum**, **24-hr urine**, and **first morning void (FMV) urine** metabolites.
 
 In external datasets, MMS are computed using the subset of IDATA metabolites that are available on the external metabolomics platform. As a result, MMS values represent a **relative metabolite pattern within each study** and are intended for **within-study association analyses**, rather than direct numerical comparison across cohorts.
